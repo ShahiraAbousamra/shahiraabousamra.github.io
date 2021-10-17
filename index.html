@@ -5,13 +5,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <style>
-.pub {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
 a:link, a:visited {
   color: rgb(0, 89, 179);
   text-decoration: none;
@@ -19,6 +12,22 @@ a:link, a:visited {
 a:hover, a:active {
   color: rgb(0, 89, 179);
   text-decoration: underline;
+}
+#row{
+ width:100%;
+ 
+}
+
+.col_img{
+ width:30%;
+ display:inline-block;
+ vertical-align:top;
+ padding-right:25px; 
+}
+.col_txt{
+ width:65%;
+ display:inline-block;
+ vertical-align:top;
 }
 </style>
 <title>Shahira Abousamra</title>
@@ -31,48 +40,96 @@ a:hover, a:active {
 <img src="./images/Shahira Abousamra2.jpg" style="float:left;width:20%;padding-left:40px;padding-right:20px;padding-bottom:40px">
 
 <p style="clear:left;font-weight:bold;font-size:large;font-family:arial;text-shadow: 1px 1px #888888;padding-left:15px">Publications</p>
+
 <div style="font-family:arial;font-size:small">
-<p>
-<a href="https://arxiv.org/abs/2110.04886">Multi-Class Cell Detection Using Spatial Context Representation.</a><br/>
-<b>S. Abousamra</b>, D. Belinsky, J. Arnam, F. Allard, E. Yee, R. Gupta, T. Kurc, D. Samaras, J. Saltz, C. Chen <br/>
-International Conference on Computer Vision (ICCV), 2021, (Oral). <br/>
-</p>
 
-<p>
-<a href="https://arxiv.org/abs/2012.12482"> Localization in the Crowd with Topological Constraints.</a><br/>
-<b>S. Abousamra</b>, M. Hoai, D. Samaras, C. Chen <br/>
-AAAI Conference on Artificial Intelligence (AAAI), 2021. <br/>
-</p>
+<div id="row">
+<div class="col_img">
+	<a href="https://arxiv.org/pdf/2110.04886.pdf"><img src="./images/mcspatnet_a.png" style="width:100%;padding-right:20px"></a>
+</div>
+<div class="col_txt"> 
+	<br/>
+	<a href="https://arxiv.org/pdf/2110.04886.pdf">Multi-Class Cell Detection Using Spatial Context Representation.</a><br/>
+	<b>S. Abousamra</b>, D. Belinsky, J. Arnam, F. Allard, E. Yee, R. Gupta, T. Kurc, D. Samaras, J. Saltz, C. Chen <br/>
+	International Conference on Computer Vision (ICCV), 2021, (Oral). <br/>
+	[<a href="https://arxiv.org/pdf/2110.04886.pdf">paper</a>][<a href="./resources/MCSpatNet_summary_v3.pdf">summary</a>][<a href="https://www.youtube.com/watch?v=c5tmM0jufmE">video</a>][<a href="https://github.com/TopoXLab/MCSpatNet">code</a>]<br/>
+</div> 
+</div>
+<br/><br/>
 
-<p>
-<a href="https://diagnosticpathology.biomedcentral.com/articles/10.1186/s13000-020-01003-0">Deep learning-based image analysis methods for brightfield-acquired multiplex immunohistochemistry images.</a><br/>
-D. Fassler*, <b>S. Abousamra*</b>, R. Gupta, C. Chen, M. Zhao, D. Paredes, S. Batool, B. Knudsen, L. Escobar-Hoyos, K. Shroyer, D. Samaras, T. Kurc, J. Saltz <br/>
-Diagnostic Pathology, 2020. <br/>
-</p>
 
-<p>
-<a href="https://ieeexplore.ieee.org/document/9098652">Weakly-Supervised Deep Stain Decomposition For Multiplex IHC Images.</a><br/>
-<b>S. Abousamra</b>, D. Fassler, L. Hou, Y. Zhang, R. Gupta, T. Kurc, L. F. Escobar-Hoyos, D. Samaras, B. Knudson, K. Shroyer, J. Saltz, C. Chen <br/>
-IEEE International Symposium on Biomedical Imaging (ISBI), 2020. <br/>
-</p>
+<div id="row">
+<div class="col_img">
+	<a href="https://arxiv.org/pdf/2012.12482.pdf"><img src="./images/topocount_d3.png" style="width:100%;padding-right:20px"></a>
+</div>
+<div class="col_txt"> 
+	<br/>
+	<a href="https://arxiv.org/pdf/2012.12482.pdf"> Localization in the Crowd with Topological Constraints.</a><br/>
+	<b>S. Abousamra</b>, M. Hoai, D. Samaras, C. Chen <br/>
+	AAAI Conference on Artificial Intelligence (AAAI), 2021. <br/>
+	<!-- <a href="https://www.cs.stonybrook.edu/sites/default/files/GRD_2021_Booklet-1.pdf"><em>Best Presentation in Domain Award - SBU Computer Science Graduate Research Day, 2021</em></a><br/> -->
+	<em>Best presentation in domain award - SBU Computer Science Graduate Research Day, 2021</em><br/> 
+	[<a href="https://arxiv.org/pdf/2012.12482.pdf">paper</a>][<a href="./resources/TopoCount_poster_v2-4.pdf">poster</a>][<a href="https://www.youtube.com/watch?v=dGs6hdLIAh8">video</a>][<a href="https://github.com/TopoXLab/TopoCount">code</a>]<br/>
+</div> 
+</div>
+<br/><br/>
 
-<p>
-<a href="https://arxiv.org/abs/1905.10841">Utilizing automated breast cancer detection to identify spatial distributions of tumor-infiltrating lymphocytes in invasive breast cancer.</a><br/>
-H. Le, R. Gupta, L. Hou, <b>S. Abousamra</b>, D. Fassler, L. Torre-Healy, R. Moffitt, T. Kurc, D. Samaras, R. Batiste, T. Zhao, A. Rao, A. Van Dyke, A. Sharma, E. Bremer, J. Almeida, J. Saltz <br/>
-The American journal of pathology, 2020. <br/>
-</p>
 
-<p>
-<a href="https://arxiv.org/abs/1907.03960">Learning from Thresholds: Fully Automated Classification of Tumor Infiltrating Lymphocytes for Multiple Cancer Types.</a><br/>
-<b>S. Abousamra</b>, L. Hou, R. Gupta, C. Chen, D. Samaras, T. Kurc, R. Batiste, T. Zhao, S. Kenneth, J. Saltz <br/>
-Computing Research Repository (CoRR), 2019. <br/>
-</p>
+<div id="row">
+<div class="col_img">
+	<a href="https://ieeexplore.ieee.org/document/9098652"><img src="./images/multiplex_isbi.png" style="width:100%;padding-right:20px"></a>
+</div>
+<div class="col_txt"> 
+	<!-- <br/> -->
+	<a href="https://diagnosticpathology.biomedcentral.com/articles/10.1186/s13000-020-01003-0">Deep learning-based image analysis methods for brightfield-acquired multiplex immunohistochemistry images.</a><br/>
+	D. Fassler*, <b>S. Abousamra*</b>, R. Gupta, C. Chen, M. Zhao, D. Paredes, S. Batool, B. Knudsen, L. Escobar-Hoyos, K. Shroyer, D. Samaras, T. Kurc, J. Saltz <br/>
+	Diagnostic Pathology, 2020. <br/>
+	[<a href="https://diagnosticpathology.biomedcentral.com/articles/10.1186/s13000-020-01003-0">paper</a>][<a href="https://github.com/ShahiraAbousamra/mihc_analysis_dp_paper">code</a>]<br/>
 
-<p>
-<a href="https://ieeexplore.ieee.org/document/8575478">Localization and Tracking in 4D Fluorescence Microscopy Imagery.</a><br/>
-<b>S. Abousamra</b>, S. Adar, N. Elia, R. Shilkrot <br/>
-Computer Vision and Pattern Recognition Workshops (CVPRW), 2018. <br/>
-</p>
+	<br/>
+	<a href="https://ieeexplore.ieee.org/document/9098652">Weakly-Supervised Deep Stain Decomposition For Multiplex IHC Images.</a><br/>
+	<b>S. Abousamra</b>, D. Fassler, L. Hou, Y. Zhang, R. Gupta, T. Kurc, L. F. Escobar-Hoyos, D. Samaras, B. Knudson, K. Shroyer, J. Saltz, C. Chen <br/>
+	IEEE International Symposium on Biomedical Imaging (ISBI), 2020. <br/>
+	[<a href="https://ieeexplore.ieee.org/document/9098652">paper</a>][<a href="https://youtu.be/z2B6KZx2nF0">video</a>][<a href="https://github.com/ShahiraAbousamra/mihc_analysis_dp_paper">code</a>]<br/>
+</div> 
+</div>
+<br/><br/><br/>
+
+<div id="row">
+<div class="col_img">
+	<a href="https://arxiv.org/pdf/1907.03960.pdf"><img src="./images/til.png" style="width:100%;padding-right:20px;margin-left:auto;margin-right:auto;display: block;"></a>
+</div>
+<div class="col_txt"> 
+	<!-- <br/> -->
+	<a href="https://arxiv.org/ftp/arxiv/papers/1905/1905.10841.pdf">Utilizing Automated Breast Cancer Detection to Identify Spatial Distributions of Tumor-infiltrating Lymphocytes in Invasive Breast Cancer.</a><br/>
+	H. Le, R. Gupta, L. Hou, <b>S. Abousamra</b>, D. Fassler, L. Torre-Healy, R. Moffitt, T. Kurc, D. Samaras, R. Batiste, T. Zhao, A. Rao, A. Van Dyke, A. Sharma, E. Bremer, J. Almeida, J. Saltz <br/>
+	The American journal of pathology, 2020. <br/>
+	[<a href="https://arxiv.org/ftp/arxiv/papers/1905/1905.10841.pdf">paper</a>]<br/>
+	<br/>
+	
+	<a href="https://arxiv.org/pdf/1907.03960.pdf">Learning from Thresholds: Fully Automated Classification of Tumor Infiltrating Lymphocytes for Multiple Cancer Types.</a><br/>
+	<b>S. Abousamra</b>, L. Hou, R. Gupta, C. Chen, D. Samaras, T. Kurc, R. Batiste, T. Zhao, S. Kenneth, J. Saltz <br/>
+	Computing Research Repository (CoRR), 2019. <br/>
+	[<a href="https://arxiv.org/pdf/1907.03960.pdf">paper</a>][<a href="https://github.com/SBU-BMI/quip_classification">code</a>]<br/>
+</div> 
+</div>
+<br/><br/>
+
+<div id="row">
+<div class="col_img">
+	<a href="https://ieeexplore.ieee.org/document/8575478"><img src="./images/4d_microscopy_a.png" style="width:105%;"></a>
+</div>
+<div class="col_txt"> 
+	<br/>
+	<a href="https://ieeexplore.ieee.org/document/8575478">Localization and Tracking in 4D Fluorescence Microscopy Imagery.</a><br/>
+	<b>S. Abousamra</b>, S. Adar, N. Elia, R. Shilkrot <br/>
+	Computer Vision and Pattern Recognition Workshops (CVPRW), 2018. <br/>
+	<em>Best poster award - Center of Excellence in Wireless and Information Technology (CEWIT) Conference, 2017</em><br/> 
+	[<a href="https://ieeexplore.ieee.org/document/8575478">paper</a>][<a href="./resources/zebrafish-poster.pdf">poster</a>]<br/>
+</div> 
+</div>
+<br/><br/>
+
 
 
  
