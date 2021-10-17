@@ -29,19 +29,60 @@ a:hover, a:active {
  display:inline-block;
  vertical-align:top;
 }
+.section_title{
+clear:left;
+font-weight:bold;
+font-size:large;
+font-family:arial;
+text-shadow: 1px 1px #888888;
+padding-left:15px
+}
+.section_content{
+font-family:arial;
+font-size:small
+}
+.intro{
+font-family:arial;
+font-size:medium;
+}
+.intro_row{
+font-family:arial;
+font-size:medium;
+margin-top:7px;
+display:inline-block;
+}
 </style>
 <title>Shahira Abousamra</title>
 </head>
 <body>
 
-<!-- <h1 style="font-family:'Roboto',sans-serif;">Shahira Abousamra</h1> -->
-<h1 style="font-family:arial;color:rgb(0,51,102);text-shadow: 1.4px 1px #888888;">Shahira Abousamra</h1>
+<h1 style="font-family:arial;color:rgb(0, 0, 0);text-shadow: 1.4px 1px #888888;">Shahira Abousamra</h1>
 
-<img src="./images/Shahira Abousamra2.jpg" style="float:left;width:20%;padding-left:40px;padding-right:20px;padding-bottom:40px">
+<img src="./images/Shahira Abousamra2.jpg" style="float:left;width:20%;padding-left:40px;padding-right:40px;padding-bottom:40px">
 
-<p style="clear:left;font-weight:bold;font-size:large;font-family:arial;text-shadow: 1px 1px #888888;padding-left:15px">Publications</p>
+<div class="intro">
+PhD Student <br/>
+<a href="https://www.cs.stonybrook.edu/" class="intro_row">Department of Computer Science</a><br/>
+<a href="https://www.stonybrook.edu/" class="intro_row">Stony Brook University</a> <br/>
+<p>
+<a href="https://www.linkedin.com/in/shahira-abousamra/" class="intro_row"><em>LinkedIn</em></a> <br/>
+<a href="https://scholar.google.com/citations?hl=en&user=DwyNwhwAAAAJ" class="intro_row"><em>Google Scholar</em></a> <br/>
+<a href="./resources/ShahiraAbouSamra-Resume.pdf" class="intro_row"><em>Resume</em></a> <br/>
+</p>
+</div>
 
-<div style="font-family:arial;font-size:small">
+<p class="section_title">About</p>
+
+<div class="section_content" style="padding-left:15px">
+I am a PhD student at Stony Brook University. I am advised by <a href="">Dr. Chao Chen</a> and <a href="">Dr. Dimitris Samaras</a>. 
+My research is in computer vision, machine learning, and biomedical image analysis. I am specially interested in the intersection among all three. 
+General computer vision solutions often do not work right out of the box when applied on biomedical images, making it essential to research solutions that target this domain.
+There are inherent spatial and topological features in biomedical images that often go overlooked. I am excited about researching solutions that take advantage of these various features.
+</div>
+
+<p class="section_title">Publications</p>
+
+<div class="section_content">
 
 <div id="row">
 <div class="col_img">
